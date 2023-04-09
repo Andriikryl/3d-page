@@ -78,7 +78,7 @@
   }
 
   .main__titel{
-    font-size: clamp(20px, 4vh, 40px);
+    font-size: clamp(30px, 4vh, 40px);
     text-align: center;
     padding-block-end: 20px;
   }
