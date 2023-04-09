@@ -28,8 +28,8 @@
   }
 
   body{
-    background-color: #f4a261;
-    height: 300vh;
+    height: 500vh;
+    font-family: 'Comforter Brush', cursive;
   }
 
   section{
@@ -55,6 +55,7 @@
     height: 100vh;
   }
 
+
   .sticky{
     position: sticky;
     width: 100%;
@@ -65,10 +66,44 @@
   }
 
   .container{
-    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
     height: 100%;
-    background-color: #bde0fe;
     border-radius: 10px;
     padding: 1rem;
     overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__titel{
+    font-size: clamp(20px, 4vh, 40px);
+    text-align: center;
+    padding-block-end: 20px;
+  }
+  .box-content{
+    max-width: 600px;
+  }
+
+  .main__box-img{
+    max-width: 400px;
+  }
+
+  .chepter__title{
+    font-size: clamp(20px, 4vh, 40px);
+    text-align: left;
+    padding-block-end: 20px;
+  }
+
+  .chepter__text{
+    font-size: clamp(20px, 4vh, 40px);
+    text-align: left;
+    padding-block-end: 20px;
+  }
+
+  p::first-letter {
+    font-weight: bold;
+    color: tomato;
+    font-size: 50px;
   }
